@@ -83,15 +83,36 @@ ________________________________________________________________________
 ***Log preview:***
    - **Cose fatte oggi:** 
       1. Ricerca sulla libreria libGDX;
-      2. Download e set up dell'ambiente di sviluppo (con Eclipse).
+      2. Download e set up dell'ambiente di sviluppo.
    - **Sitografia**:
       - [LibGDX Source & Documentation](https://libgdx.com/dev/)
       - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
          - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
-         - [Create a project*](https://libgdx.com/wiki/start/project-generation)
+         - [Create a project](https://libgdx.com/wiki/start/project-generation)
 __________________________________________________________________
 ***Log completo:***
-   1. 
+   1. Ricerca sulla libreria GDX, con pochi risultati;
+   2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
+________________________________________________________________________
+
+## **14 dicembre 2024**
+
+***Log preview:***
+   - **Cose fatte oggi:** 
+      1. Download e set up dell'ambiente di sviluppo;
+      2. Studio di Git e GitHub;
+      3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco.
+   - **Sitografia**:
+      - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+         - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
+         - [Create a project](https://libgdx.com/wiki/start/project-generation)
+      - [Repository GitHub del progetto](https://github.com/VezzolaLuca-MarconiVR/4_INFORMATICA_2024_25.git)
+      - [Copilot](https://copilot.microsoft.com/)
+__________________________________________________________________
+***Log completo:***
+   1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
+   2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
+   3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
 ________________________________________________________________________
 
 ***Idee per il gioco***
@@ -138,7 +159,168 @@ __________________________________________________________________
     - le viverne sono rettili bipedi dotati di ali "poco più grandi di un gatto domestico", e dotate di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
     - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia tale;
 
-________________________________________________________________________________
+__________________________________________________________________
+
+## _Copilot (14/12/2024 22:54)_
+
+   * _Input:_
+```
+ciao, sto facendo un gioco e mi servirebbe che mi aiutassi a fare una lista di ingredienti (sono 15) dove ogni elemento ha 3 caratteristiche (uniche per quell'ingrediente, e non ne deve avere più di una appartenente allo stesso "Regno") appartenenti a diverse piccole divinità. Le piccole divinità sono 15 e sono suddivise in 5 regni (la struttura del testo è ##[Regno], - Nome piccola divinità, - caratteristiche): ## Regno dell'Acqua - Piccola divinità dei Fiumi - scorrere, cambiare, purificare - Piccola divinità dei Laghi - contenere, resistere, soffermarsi - Piccola divinità dei Mari - celare, oscurare, unificare ## Regno del Fuoco - Piccola divinità delle Fiamme - rischiare, consumare, arroganza - Piccola divinità del Calore - scottare, confortare, resistere - Piccola divinità del Sole - illuminare, sicurezza, guida ## Regno dell'Aria - Piccola divinità dei Venti - fluidità, mescolanza, libertà - Piccola divinità delle Nuvole - annebbiare, unicità, alleggerire - Piccola divinità dei Sentori - attrarre, respingere, rilassare ## Regno della Terra - Piccola divinità dei Monti - superiorità, saggezza, durezza - Piccola divinità delle Colline - sinuosità, morbidezza, attenuazione - Piccola divinità delle Pianure - infinite direzioni, fondamenta, lucidità ## Regno della Vita - Piccola divinità degli Animali - resilienza, comunità, alternatività - Piccola divinità delle Piante - flessibilità, vulnerabilità, crescita - Piccola divinità dei Funghi - costanza, bellezza, intelligenza
+```
+   * _Output (sono 2; il secondo è il risultato di un tentativo di allineamento con il risultato voluto):_
+```
+1. **Foglia d'Argento**
+    - Scorrere (Regno dell'Acqua - Fiumi)
+    - Fluidità (Regno dell'Aria - Venti)
+    - Sicurezza (Regno del Fuoco - Sole)
+
+2. **Pietra di Luna**
+    - Celare (Regno dell'Acqua - Mari)
+    - Saggezza (Regno della Terra - Monti)
+    - Bellezza (Regno della Vita - Funghi)
+
+3. **Erba di Sole**
+    - Soffermarsi (Regno dell'Acqua - Laghi)
+    - Confortare (Regno del Fuoco - Calore)
+    - Crescita (Regno della Vita - Piante)
+
+4. **Radice di Mandragora**
+    - Resistere (Regno dell'Acqua - Laghi)
+    - Oscurare (Regno dell'Acqua - Mari)
+    - Fondamenta (Regno della Terra - Pianure)
+
+5. **Fiore della Neve**
+    - Purificare (Regno dell'Acqua - Fiumi)
+    - Alleggerire (Regno dell'Aria - Nuvole)
+    - Vulnerabilità (Regno della Vita - Piante)
+
+6. **Ghiaccio Puro**
+    - Mescolanza (Regno dell'Aria - Venti)
+    - Superiorità (Regno della Terra - Monti)
+    - Costanza (Regno della Vita - Funghi)
+
+7. **Zolfo Alchemico**
+    - Sicurezza (Regno del Fuoco - Sole)
+    - Durezza (Regno della Terra - Monti)
+    - Fluidità (Regno dell'Aria - Venti)
+
+8. **Corteccia di Quercia Antica**
+    - Flessibilità (Regno della Vita - Piante)
+    - Rilassare (Regno dell'Aria - Sentori)
+    - Resistere (Regno del Fuoco - Calore)
+
+9. **Cristallo di Roccia**
+    - Durezza (Regno della Terra - Monti)
+    - Unicità (Regno dell'Aria - Nuvole)
+    - Comunità (Regno della Vita - Animali)
+
+10. **Semi di Salvia Magica**
+    - Attrarre (Regno dell'Aria - Sentori)
+    - Riscaldare (Regno del Fuoco - Calore)
+    - Contenere (Regno dell'Acqua - Laghi)
+
+11. **Polvere di Stelle**
+    - Cambiare (Regno dell'Acqua - Fiumi)
+    - Libertà (Regno dell'Aria - Venti)
+    - Bellezza (Regno della Vita - Funghi)
+
+12. **Erba della Luce**
+    - Illuminare (Regno del Fuoco - Sole)
+    - Superiorità (Regno della Terra - Monti)
+    - Crescita (Regno della Vita - Piante)
+
+13. **Filo di Rugiada**
+    - Purificare (Regno dell'Acqua - Fiumi)
+    - Allegerire (Regno dell'Aria - Nuvole)
+    - Rilassare (Regno dell'Aria - Sentori)
+
+14. **Frutto della Pianta di Mele Meravigliose**
+    - Cambiare (Regno dell'Acqua - Fiumi)
+    - Libertà (Regno dell'Aria - Venti)
+    - Confortare (Regno del Fuoco - Calore)
+
+15. **Polvere di Cristallo**
+    - Inferiore Direzioni (Regno della Terra - Pianure)
+    - Fluidità (Regno dell'Aria - Venti)
+    - Intelligenza (Regno della Vita - Funghi)
+______________________________________________________
+
+1. **Foglia d'Argento**
+    - Scorrere (Regno dell'Acqua - Fiumi)
+    - Fluidità (Regno dell'Aria - Venti)
+    - Sicurezza (Regno del Fuoco - Sole)
+
+2. **Pietra di Luna**
+    - Celare (Regno dell'Acqua - Mari)
+    - Saggezza (Regno della Terra - Monti)
+    - Bellezza (Regno della Vita - Funghi)
+
+3. **Erba di Sole**
+    - Soffermarsi (Regno dell'Acqua - Laghi)
+    - Confortare (Regno del Fuoco - Calore)
+    - Crescita (Regno della Vita - Piante)
+
+4. **Radice di Mandragora**
+    - Resistere (Regno dell'Acqua - Laghi)
+    - Oscurare (Regno dell'Acqua - Mari)
+    - Fondamenta (Regno della Terra - Pianure)
+
+5. **Fiore della Neve**
+    - Purificare (Regno dell'Acqua - Fiumi)
+    - Alleggerire (Regno dell'Aria - Nuvole)
+    - Vulnerabilità (Regno della Vita - Piante)
+
+6. **Ghiaccio Puro**
+    - Mescolanza (Regno dell'Aria - Venti)
+    - Superiorità (Regno della Terra - Monti)
+    - Costanza (Regno della Vita - Funghi)
+
+7. **Zolfo Alchemico**
+    - Sicurezza (Regno del Fuoco - Sole)
+    - Durezza (Regno della Terra - Monti)
+    - Fluidità (Regno dell'Aria - Venti)
+
+8. **Corteccia di Quercia Antica**
+    - Flessibilità (Regno della Vita - Piante)
+    - Rilassare (Regno dell'Aria - Sentori)
+    - Resistere (Regno del Fuoco - Calore)
+
+9. **Cristallo di Roccia**
+    - Durezza (Regno della Terra - Monti)
+    - Unicità (Regno dell'Aria - Nuvole)
+    - Comunità (Regno della Vita - Animali)
+
+10. **Semi di Salvia Magica**
+    - Attrarre (Regno dell'Aria - Sentori)
+    - Riscaldare (Regno del Fuoco - Calore)
+    - Contenere (Regno dell'Acqua - Laghi)
+
+11. **Polvere di Stelle**
+    - Cambiare (Regno dell'Acqua - Fiumi)
+    - Libertà (Regno dell'Aria - Venti)
+    - Bellezza (Regno della Vita - Funghi)
+
+12. **Erba della Luce**
+    - Illuminare (Regno del Fuoco - Sole)
+    - Superiorità (Regno della Terra - Monti)
+    - Crescita (Regno della Vita - Piante)
+
+13. **Filo di Rugiada**
+    - Purificare (Regno dell'Acqua - Fiumi)
+    - Allegerire (Regno dell'Aria - Nuvole)
+    - Rilassare (Regno dell'Aria - Sentori)
+
+14. **Frutto della Pianta di Mele Meravigliose**
+    - Cambiare (Regno dell'Acqua - Fiumi)
+    - Libertà (Regno dell'Aria - Venti)
+    - Confortare (Regno del Fuoco - Calore)
+
+15. **Polvere di Cristallo**
+    - Inferiore Direzioni (Regno della Terra - Pianure)
+    - Fluidità (Regno dell'Aria - Venti)
+    - Intelligenza (Regno della Vita - Funghi)
+```
+__________________________________________________________________
 
 ***Legenda linguaggio Markdown***
 ===================================
