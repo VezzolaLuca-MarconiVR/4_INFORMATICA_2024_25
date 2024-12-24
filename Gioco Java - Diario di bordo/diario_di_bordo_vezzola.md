@@ -4,11 +4,23 @@ __________________________________________________________________
 
 **INDICE**
 - [Diario di bordo](#diario-di-bordo)
+    - [25/11/2024](#25-novembre-2024)
+    - [29/11/2024](#29-novembre-2024)
+    - [2/12/2024](#2-dicembre-2024)
+    - [7/12/2024](#7-dicembre-2024)
+    - [9/12/2024](#9-dicembre-2024)
+    - [14/12/2024](#14-dicembre-2024)
+    - [16/12/2024](#16-dicembre-2024)
+    - [21/12/2024](#21-dicembre-2024)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
    
    
 __________________________________________________________________
+
+
+
+
 
 ***Diario di bordo***
 ===================
@@ -115,6 +127,37 @@ __________________________________________________________________
    3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
 ________________________________________________________________________
 
+## **16 dicembre 2024**
+
+***Log preview:***
+   - **Cose fatte oggi:** 
+      1. Ricerca rivolta alla comprensione della struttura dati di un progetto libGDX.
+   - **Sitografia**:
+      - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+__________________________________________________________________
+***Log completo:***
+   1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff".
+________________________________________________________________________
+
+## **21 dicembre 2024**
+
+***Log preview:***
+   - **Cose fatte oggi:** 
+      1. Creazione della classe MyGame;
+      2. Definizione di tutti i "regni" e le loro "piccole divinità".
+   - **Sitografia**:
+      - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+__________________________________________________________________
+***Log completo:***
+   1. Creazione della classe MyGame (che estende a ApplicationAdapter), e implementazione tutti i metodi dell'interfaccia;
+   2. Definizione di tutti i "regni" e le loro "piccole divinità" (ognuna con le sue 3 caratteristiche), puoi trovarle [qui](#lista-dei-regni-con-le-loro-piccole-divinità-e-le-loro-piccole-caratteristiche).
+________________________________________________________________________
+
+
+
+
+
+
 ***Idee per il gioco***
 =====================
 
@@ -159,7 +202,46 @@ __________________________________________________________________
     - le viverne sono rettili bipedi dotati di ali "poco più grandi di un gatto domestico", e dotate di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
     - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia tale;
 
-__________________________________________________________________
+___________________________________________
+
+## **Lista dei regni con le loro piccole divinità e le loro piccole caratteristiche:**
+
+1. ## Regno dell'Acqua
+    - Piccola divinità dei Fiumi
+        - scorrere, cambiare, purificare
+    - Piccola divinità dei Laghi
+        - contenere, resistere, soffermarsi
+    - Piccola divinità dei Mari
+        - celare, oscurare, unificare
+2. ## Regno del Fuoco
+    - Piccola divinità delle Fiamme
+        - rischiare, consumare, arroganza
+    - Piccola divinità del Calore
+        - scottare, confortare, resistere
+    - Piccola divinità del Sole
+        - illuminare, sicurezza, guida
+3. ## Regno dell'Aria
+    - Piccola divinità dei Venti
+        - fluidità, mescolanza, libertà
+    - Piccola divinità delle Nuvole
+        - annebbiare, unicità, alleggerire
+    - Piccola divinità dei Sentori
+        - attrarre, respingere, rilassare
+4. ## Regno della Terra
+    - Piccola divinità dei Monti
+        - superiorità, saggezza, durezza
+    - Piccola divinità delle Colline
+        - sinuosità, morbidezza, attenuazione
+    - Piccola divinità delle Pianure
+        - infinite direzioni, fondamenta, lucidità
+5. ## Regno della Vita
+    - Piccola divinità degli Animali
+        - resilienza, comunità, alternatività
+    - Piccola divinità delle Piante
+        - flessibilità, vulnerabilità, crescita
+    - Piccola divinità dei Funghi
+        - costanza, bellezza, intelligenza
+_______________________
 
 ## _Copilot (14/12/2024 22:54)_
 
