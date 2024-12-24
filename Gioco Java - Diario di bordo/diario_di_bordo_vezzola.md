@@ -1,174 +1,329 @@
-_Vezzola Luca 4CI_
+Vezzola Luca 4CI
+================
 
 __________________________________________________________________
 
-**INDICE**
+Indice
+======
+
 - [Diario di bordo](#diario-di-bordo)
+    - [25/11/2024](#25-novembre-2024)
+    - [29/11/2024](#29-novembre-2024)
+    - [2/12/2024](#2-dicembre-2024)
+    - [7/12/2024](#7-dicembre-2024)
+    - [9/12/2024](#9-dicembre-2024)
+    - [14/12/2024](#14-dicembre-2024)
+    - [16/12/2024](#16-dicembre-2024)
+    - [21/12/2024](#21-dicembre-2024)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
-   
-   
-__________________________________________________________________
 
-***Diario di bordo***
+__________________________________________________________
+
+_**Diario di bordo**_
 ===================
 
-## **25 novembre 2024**
+**25 novembre 2024**
+--------------------
 
-***Log preview:***
-   - **Cose fatte oggi:** 
-      1. Studio linguaggio Markdown;
-      2. Definizione degli aspetti principali del gioco.
-   - **Sitografia**:
-      - https://www.html.it/articoli/markdown-guida-al-linguaggio/
-__________________________________________________________________
-***Log completo:***
-   1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown);
-   2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali).
-________________________________________________________________________
+_**Log preview:**_
 
-## **29 novembre 2024**
+- **Cose fatte oggi:**
+    1. Studio linguaggio Markdown;
+    2. Definizione degli aspetti principali del gioco.
+- **Sitografia**:
+    - <https://www.html.it/articoli/markdown-guida-al-linguaggio/>
 
-***Log preview:***
-   - **Cose fatte oggi:** 
-      1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco;
-      2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni presi dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste).
-   - **Sitografia**:
-      - https://www.youtube.com/watch?v=1DCBVxH86OE
-      - https://it.wikipedia.org/wiki/Prima_materia
-      - https://en.wikipedia.org/wiki/Philosopher%27s_stone
-___________________________________________________________
-***Log completo:***
+__________________________________________________________
+_**Log completo:**_
 
-   1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works);
-   2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste).
-________________________________________________________________________
+    1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown);
+    2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali).
+
+__________________________________________________________
+
+**29 novembre 2024**
+--------------------
+
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco;
+    2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni presi dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste).
+- **Sitografia**:
+    - <https://www.youtube.com/watch?v=1DCBVxH86OE>
+    - <https://it.wikipedia.org/wiki/Prima_materia>
+    - <https://en.wikipedia.org/wiki/Philosopher%27s_stone>
+
+__________________________________________________________
+_**Log completo:**_
+
+    1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works);
+    2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste).
+
+__________________________________________________________
 
 ## **2 dicembre 2024**
 
-***Log preview:***
-   - **Cose fatte oggi:** 
-      1. Ricerca delle librerie utili al progetto;
-      2. Studio di JavaFX.
-   - **Sitografia**:
-      - https://aulab.it/guide-avanzate/javafx/
-      - https://www.oracle.com/it/java/technologies/javase/javafx-overview.html
-      - https://openjfx.io/javadoc/22/
-__________________________________________________________________
-***Log completo:***
-   1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/);
-   2. Studio di JavaFX con particolare attenzione alle seguenti funzionalità:
-      - [path con orientazione del punto in movimento](https://openjfx.io/javadoc/22/javafx.graphics/javafx/animation/PathTransition.OrientationType.html);
-      - [forme geometriche](https://openjfx.io/javadoc/22/javafx.graphics/javafx/geometry/package-summary.html)
-________________________________________________________________________
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Ricerca delle librerie utili al progetto;
+    2. Studio di JavaFX.
+- **Sitografia**:
+    - <https://aulab.it/guide-avanzate/javafx/>
+    - <https://www.oracle.com/it/java/technologies/javase/javafx-overview.html>
+    - <https://openjfx.io/javadoc/22/>
+
+___________________________________________________________
+_**Log completo:**_
+
+    1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/);
+    2. Studio di JavaFX con particolare attenzione alle seguenti funzionalità:
+        - [path con orientazione del punto in movimento](https://openjfx.io/javadoc/22/javafx.graphics/javafx/animation/PathTransition.OrientationType.html);
+        - [forme geometriche](https://openjfx.io/javadoc/22/javafx.graphics/javafx/geometry/package-summary.html)
+
+___________________________________________________________
 
 ## **7 dicembre 2024**
 
-***Log preview:***
-   - **Cose fatte oggi:** 
-      1. Ricerca sulla pixel art;
-      2. Disegno di bozze di prova con GraphicsGale.
-   - **Sitografia**:
-      - https://graphicsgale.com/us/
-      - https://www.youtube.com/watch?v=3dSspGMI7d4&ab_channel=DraginoffGaming
-      - https://lospec.com/palette-list/blk-nx64
-__________________________________________________________________
-***Log completo:***
-   1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/);
-   2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png)).
-________________________________________________________________________
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Ricerca sulla pixel art;
+    2. Disegno di bozze di prova con GraphicsGale.
+- **Sitografia**:
+    - <https://graphicsgale.com/us/>
+    - <https://www.youtube.com/watch?v=3dSspGMI7d4&ab_channel=DraginoffGaming>
+    - <https://lospec.com/palette-list/blk-nx64>
+
+___________________________________________________________
+_**Log completo:**_
+
+    1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/);
+    2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png)).
+
+___________________________________________________________
 
 ## **9 dicembre 2024**
 
-***Log preview:***
-   - **Cose fatte oggi:** 
-      1. Ricerca sulla libreria libGDX;
-      2. Download e set up dell'ambiente di sviluppo.
-   - **Sitografia**:
-      - [LibGDX Source & Documentation](https://libgdx.com/dev/)
-      - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
-         - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
-         - [Create a project](https://libgdx.com/wiki/start/project-generation)
-__________________________________________________________________
-***Log completo:***
-   1. Ricerca sulla libreria GDX, con pochi risultati;
-   2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
-________________________________________________________________________
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Ricerca sulla libreria libGDX;
+    2. Download e set up dell'ambiente di sviluppo.
+- **Sitografia**:
+    - [LibGDX Source & Documentation](https://libgdx.com/dev/)
+    - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+        - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
+    - [Create a project](https://libgdx.com/wiki/start/project-generation)
+
+__________________________________________________________
+_**Log completo:**_
+
+    1. Ricerca sulla libreria GDX, con pochi risultati;
+    2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
+
+__________________________________________________________
 
 ## **14 dicembre 2024**
 
-***Log preview:***
-   - **Cose fatte oggi:** 
+_**Log preview:**_
+
+- **Cose fatte oggi:**
       1. Download e set up dell'ambiente di sviluppo;
       2. Studio di Git e GitHub;
       3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco.
-   - **Sitografia**:
-      - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
-         - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
-         - [Create a project](https://libgdx.com/wiki/start/project-generation)
-      - [Repository GitHub del progetto](https://github.com/VezzolaLuca-MarconiVR/4_INFORMATICA_2024_25.git)
-      - [Copilot](https://copilot.microsoft.com/)
-__________________________________________________________________
-***Log completo:***
-   1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
-   2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
-   3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
-________________________________________________________________________
+- **Sitografia**:
+    - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+        - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
+    - [Create a project](https://libgdx.com/wiki/start/project-generation)
+    - [Repository GitHub del progetto](https://github.com/VezzolaLuca-MarconiVR/4_INFORMATICA_2024_25.git)
+    - [Copilot](https://copilot.microsoft.com/)
 
-***Idee per il gioco***
+__________________________________________________________
+_**Log completo:**_
+
+    1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
+    2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
+    3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
+
+__________________________________________________________
+
+**16 dicembre 2024**
+--------------------
+
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Ricerca rivolta alla comprensione della struttura dati di un progetto libGDX.
+- **Sitografia**:
+    - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+
+__________________________________________________________
+_**Log completo:**_
+
+    1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff".
+
+__________________________________________________________
+
+**21 dicembre 2024**
+--------------------
+
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Creazione della classe MyGame;
+    2. Definizione di tutti i "regni" e le loro "piccole divinità";
+    3. Definizione degli ingredienti con l'aiuto di Copilot.
+- **Sitografia**:
+  - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+
+__________________________________________________________
+_**Log completo:**_
+
+    1. Creazione della classe MyGame (che estende a ApplicationAdapter), e implementazione tutti i metodi dell'interfaccia;
+    2. Definizione di tutti i "regni" e le loro "piccole divinità" (ognuna con le sue 3 caratteristiche), puoi trovarle [qui](#lista-dei-regni-con-le-loro-piccole-divinità-e-le-loro-piccole-caratteristiche);
+    3. Definizione degli ingredeinti necessari ad invocare le piccole divinità, puoi trovarli [qui](#copilot-14122024-2254).
+
+__________________________________________________________
+
+**24 dicembre 2024**
+--------------------
+
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Testing per comprendere meglio il funzionamento di libGDX.
+- **Sitografia**:
+    - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
+
+__________________________________________________________
+_**Log completo:**_
+
+    1. Testing per comprendere meglio il funzionamento di libGDX:
+        - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni.
+
+
+__________________________________________________________
+
+_**Idee per il gioco**_
 =====================
 
-## Sketches
-- random:
-    - [anfore, vasetti, sacchi, Bat e Race (batrace = rana, rospo)](images/sketch_1.jpg)
-__________________________________________________________________
+Sketches
+--------
 
-## Idee iniziali:
+- random:
+  - [anfore, vasetti, sacchi, Bat e Race (batrace = rana, rospo)](images/sketch_1.jpg)
+
+__________________________________________________________
+
+Idee iniziali
+-------------
+
 - Strega/alchimista;
 - Creare pozioni;
-    - raccogliere o cacciare gli ingredienti;
-    - sistema di storage (scaffali, vasi, sacchi di tela, ecc...)
-    - "cestino" per eliminare gli ingredienti in eccesso (Bat e Race);
+  - raccogliere o cacciare gli ingredienti;
+  - sistema di storage (scaffali, vasi, sacchi di tela, ecc...)
+  - "cestino" per eliminare gli ingredienti in eccesso (Bat e Race);
 - Vendere pozioni;
 - Sistema di ricompense alla "ruota della fortuna" con i tarocchi;
 - Creare amuleti
-    - Insetti
-    - Portafoto indossabili
-    - Gemme
+  - Insetti
+  - Portafoto indossabili
+  - Gemme
 - Totem per infondere "poteri" speciali o per iniziare i rituali.
 
-__________________________________________________________________
+__________________________________________________________
 
-## Ricavate da [_"I learned Alchemy from Medieval Manuscripts. Here's how it works:"_](https://www.youtube.com/watch?v=1DCBVxH86OE):
+Ricavate da [_"I learned Alchemy from Medieval Manuscripts. Here's how it works:"_](https://www.youtube.com/watch?v=1DCBVxH86OE)
+-----------------------------------------------------------------------------------
+
 To pseudo Democritus, to make a desired substance you search for the qualities of that substance scattered throughout nature, collect together substances that each reflect one or more of the desired qualities, and use the art to join them together into one substance in a way that maintains those desired qualities. \
 To pseudo Democritus, gold isnt neccesarily a distinct substance as much as it is a combination of the qualities that make it metallic, yellowish, flexible, fusible, and perhaps most importantly, noble or resistant to fire. \
 Base metals like lead are already metallic, so you just need to alter their other qualities untill they match gold. \
 His gold mimicking comes on a spectrum, the simplest recipes arent meant to make gold as much as they are just meant to make a metal look yellow, more complex ones aim to imitate more of golds qualities, and the most complex try to imitate golds ability to resist fire without rustng. \
 It's not at all clear if he thinks this means hes actually made gold, or if more so he sees his work as having overcome the undesirable or corrupt atures of base metals making them more gold-like.
 
-__________________________________________________________________
+__________________________________________________________
 
-## Ricavate da [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste)
+Ricavate da [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste)
+------------------------------------------
+
 - un giardino con gazebo che dà sull'oceano, e una gnoma particolare;
-    - _"lanterne di carta rosse e arancioni"_ dalla luce tremolante che tintinnano nel vento;
-    - un _"sentiero di pietra"_ che, attraversando il giardino, porta al gazebo;
-    - il giardino è molto rigoglioso;
-        - all'interno del giardino _"Linus non vide girasoli, ma calle e gigli. Dalie. Celosie. Crisantemi, gerbere arancioni e campanule. [ ] delle callicarpe [ ]. L'aria era densa e fragrante, stordiva quasi."_ ;
-    - un poco più in là _"[ ] cresceva un albero di mele, e Linus rimase interdetto vedendo frutti rossi, verdi e rosati, di tre varietà diverse, pendere dagli stessi rami."_ alla cui base vi era una gnoma da giardino che _"Aveva una folta barba bianca e le mani giunte"_ di nome Talia, dotata di una vanga e di pochissima pazienza. Impreca spesso in gnomico;
+  - _"lanterne di carta rosse e arancioni"_ dalla luce tremolante che tintinnano nel vento;
+  - un _"sentiero di pietra"_ che, attraversando il giardino, porta al gazebo;
+  - il giardino è molto rigoglioso;
+    - all'interno del giardino _"Linus non vide girasoli, ma calle e gigli. Dalie. Celosie. Crisantemi, gerbere arancioni e campanule. [ ] delle callicarpe [ ]. L'aria era densa e fragrante, stordiva quasi."_ ;
+  - un poco più in là _"[ ] cresceva un albero di mele, e Linus rimase interdetto vedendo frutti rossi, verdi e rosati, di tre varietà diverse, pendere dagli stessi rami."_ alla cui base vi era una gnoma da giardino che _"Aveva una folta barba bianca e le mani giunte"_ di nome Talia, dotata di una vanga e di pochissima pazienza (caratteristiche aggiuntive: impreca spesso in gnomico);
 - una viverna dagli occhi arancioni, Theodore;
-    - le viverne sono rettili bipedi dotati di ali "poco più grandi di un gatto domestico", e dotate di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
-    - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia tale;
+  - descrizione, dal medesimo libro: le viverne sono rettili bipedi dotati di ali "poco più grandi di un gatto domestico", e dotate di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
+  - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia tale;
 
-__________________________________________________________________
+__________________________________________________________
 
-## _Copilot (14/12/2024 22:54)_
+**Lista dei regni con le loro piccole divinità e le loro piccole caratteristiche:**
+-----------------------------------------------------------------------------------
 
-   * _Input:_
-```
+1. Regno dell'Acqua
+
+    - Piccola divinità dei Fiumi
+        - scorrere, cambiare, purificare
+    - Piccola divinità dei Laghi
+        - contenere, resistere, soffermarsi
+    - Piccola divinità dei Mari
+        - celare, oscurare, unificare
+
+2. Regno del Fuoco
+
+    - Piccola divinità delle Fiamme
+        - rischiare, consumare, arroganza
+    - Piccola divinità del Calore
+        - scottare, confortare, resistere
+    - Piccola divinità del Sole
+        - illuminare, sicurezza, guida
+
+3. Regno dell'Aria
+
+    - Piccola divinità dei Venti
+        - fluidità, mescolanza, libertà
+    - Piccola divinità delle Nuvole
+        - annebbiare, unicità, alleggerire
+    - Piccola divinità dei Sentori
+        - attrarre, respingere, rilassare
+
+4. Regno della Terra
+
+    - Piccola divinità dei Monti
+        - superiorità, saggezza, durezza
+    - Piccola divinità delle Colline
+        - sinuosità, morbidezza, attenuazione
+    - Piccola divinità delle Pianure
+        - infinite direzioni, fondamenta, lucidità
+
+5. Regno della Vita
+
+    - Piccola divinità degli Animali
+        - resilienza, comunità, alternatività
+    - Piccola divinità delle Piante
+        - flessibilità, vulnerabilità, crescita
+    - Piccola divinità dei Funghi
+        - costanza, bellezza, intelligenza
+
+__________________________________________________________
+
+_Copilot (14/12/2024 22:54)_
+----------------------------
+
+- _Input:_
+
+```text
 ciao, sto facendo un gioco e mi servirebbe che mi aiutassi a fare una lista di ingredienti (sono 15) dove ogni elemento ha 3 caratteristiche (uniche per quell'ingrediente, e non ne deve avere più di una appartenente allo stesso "Regno") appartenenti a diverse piccole divinità. Le piccole divinità sono 15 e sono suddivise in 5 regni (la struttura del testo è ##[Regno], - Nome piccola divinità, - caratteristiche): ## Regno dell'Acqua - Piccola divinità dei Fiumi - scorrere, cambiare, purificare - Piccola divinità dei Laghi - contenere, resistere, soffermarsi - Piccola divinità dei Mari - celare, oscurare, unificare ## Regno del Fuoco - Piccola divinità delle Fiamme - rischiare, consumare, arroganza - Piccola divinità del Calore - scottare, confortare, resistere - Piccola divinità del Sole - illuminare, sicurezza, guida ## Regno dell'Aria - Piccola divinità dei Venti - fluidità, mescolanza, libertà - Piccola divinità delle Nuvole - annebbiare, unicità, alleggerire - Piccola divinità dei Sentori - attrarre, respingere, rilassare ## Regno della Terra - Piccola divinità dei Monti - superiorità, saggezza, durezza - Piccola divinità delle Colline - sinuosità, morbidezza, attenuazione - Piccola divinità delle Pianure - infinite direzioni, fondamenta, lucidità ## Regno della Vita - Piccola divinità degli Animali - resilienza, comunità, alternatività - Piccola divinità delle Piante - flessibilità, vulnerabilità, crescita - Piccola divinità dei Funghi - costanza, bellezza, intelligenza
 ```
-   * _Output (sono 2; il secondo è il risultato di un tentativo di allineamento con il risultato voluto):_
-```
+
+- _Output (sono 2; il secondo è il risultato di un tentativo di allineamento con il risultato voluto):_
+
+```text
 1. **Foglia d'Argento**
     - Scorrere (Regno dell'Acqua - Fiumi)
     - Fluidità (Regno dell'Aria - Venti)
@@ -243,7 +398,7 @@ ciao, sto facendo un gioco e mi servirebbe che mi aiutassi a fare una lista di i
     - Inferiore Direzioni (Regno della Terra - Pianure)
     - Fluidità (Regno dell'Aria - Venti)
     - Intelligenza (Regno della Vita - Funghi)
-______________________________________________________
+__________________________________________________________
 
 1. **Foglia d'Argento**
     - Scorrere (Regno dell'Acqua - Fiumi)
@@ -320,13 +475,15 @@ ______________________________________________________
     - Fluidità (Regno dell'Aria - Venti)
     - Intelligenza (Regno della Vita - Funghi)
 ```
-__________________________________________________________________
 
-***Legenda linguaggio Markdown***
+__________________________________________________________
+
+_**Legenda linguaggio Markdown**_
 ===================================
 
-Questo è un titolo.
+Questo è un titolo
 ===================
+
 ## E questo il suo sottotitolo
 
 # Ma anche questo è un titolo, solo che è meno leggibile da txt
@@ -335,20 +492,22 @@ Questo è un paragrafo di testo normale.
 
 **Questo è un oaragrafo di testo in grassetto.**
 
-*Questo* e _questo_ sono parole scritte in corsivo.
+_Questo_ e _questo_ sono parole scritte in corsivo.
 
 Questo testo precede una riga
-_____________________________
+__________________________________________________________
 Testo dopo una riga
 
-
 Quelli che seguono sono elementi di una lista puntata:
-* Punto
-* RiPunto
-* RiRiPunto
+
+- Punto
+- RiPunto
+- RiRiPunto
+
 - Altro modo per fare un punto
 
 Quelli che seguono, invece, sono elementi di una lista numerata:
+
 1. Primo punto
 2. Secondo punto
 3. Terzo punto
@@ -358,19 +517,22 @@ Quelli che seguono, invece, sono elementi di una lista numerata:
 Qyesto paragrafo contiene un [link](https://it.wikipedia.org/wiki/Link "Vai alla pagina Wikipedia sui Link").
 
 Nel caso si voglia andare a capo all'interno di un elemento che "fa un po' i capricci", come per esempio
-* All'interno di un elenco puntato \
+
+- All'interno di un elenco puntato \
 si può usare il backslash.
 
 [Scrivendo un link ad un file seguito da un # ed un testo (con gli spazi sostituiti da "-") puoi rimandare ad uno specifico punto di quel file, ma se e solo se quel punto è un titolo o un sottotitolo (questo link nello specifico rimanda a "Ma anche questo è un titolo, solo che è meno leggibile da txt").](#questo-è-un-titolo)
 
 Per scrivere alcuni caratteri dobbiamo fare l'uso del tasto ALT + una sequenza di numeri inseriti dal tastierino, per esempio:
+
 - ALT code 96 corresponds to ` (per il backtick)
 - ALT code 126 corresponds to ~ (per la tilde)
 - ALT code 123 corresponds to { (per la graffa aperta)
 - ALT code 125 corresponds to } (gper la raffa chiusa)
 
 Grazie all'utilizzo del backtick, questo paragrafo contiene del codice scritto `inline`.
-```
+
+```text
     /* Inserendo tre backtick all'inizio e
     alla fine della parte interessata,
     con un'indentazione di 4 spazi (un TAB),
