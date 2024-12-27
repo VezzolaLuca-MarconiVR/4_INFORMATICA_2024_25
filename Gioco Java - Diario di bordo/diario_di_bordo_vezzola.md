@@ -38,8 +38,8 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown);
-    2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali).
+1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown);
+2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali).
 
 __________________________________________________________
 
@@ -59,8 +59,8 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works);
-    2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste).
+1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works);
+2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste).
 
 __________________________________________________________
 
@@ -79,10 +79,10 @@ _**Log preview:**_
 ___________________________________________________________
 _**Log completo:**_
 
-    1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/);
-    2. Studio di JavaFX con particolare attenzione alle seguenti funzionalità:
-        - [path con orientazione del punto in movimento](https://openjfx.io/javadoc/22/javafx.graphics/javafx/animation/PathTransition.OrientationType.html);
-        - [forme geometriche](https://openjfx.io/javadoc/22/javafx.graphics/javafx/geometry/package-summary.html)
+1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/);
+2. Studio di JavaFX con particolare attenzione alle seguenti funzionalità:
+    - [path con orientazione del punto in movimento](https://openjfx.io/javadoc/22/javafx.graphics/javafx/animation/PathTransition.OrientationType.html);
+    - [forme geometriche](https://openjfx.io/javadoc/22/javafx.graphics/javafx/geometry/package-summary.html)
 
 ___________________________________________________________
 
@@ -101,8 +101,8 @@ _**Log preview:**_
 ___________________________________________________________
 _**Log completo:**_
 
-    1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/);
-    2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png)).
+1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/);
+2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png)).
 
 ___________________________________________________________
 
@@ -122,8 +122,8 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Ricerca sulla libreria GDX, con pochi risultati;
-    2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
+1. Ricerca sulla libreria GDX, con pochi risultati;
+2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
 
 __________________________________________________________
 
@@ -145,9 +145,9 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
-    2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
-    3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
+1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
+2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
+3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
 
 __________________________________________________________
 
@@ -164,7 +164,7 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff".
+1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff".
 
 __________________________________________________________
 
@@ -183,16 +183,16 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Creazione della classe MyGame (che estende a ApplicationAdapter), e implementazione tutti i metodi dell'interfaccia;
-    2. Definizione di tutti i "regni" e le loro "piccole divinità" (ognuna con le sue 3 caratteristiche), puoi trovarle [qui](#lista-dei-regni-con-le-loro-piccole-divinità-e-le-loro-piccole-caratteristiche);
-    3. Definizione degli ingredeinti necessari ad invocare le piccole divinità, puoi trovarli [qui](#copilot-14122024-2254).
+1. Creazione della classe MyGame (che estende a ApplicationAdapter), e implementazione tutti i metodi dell'interfaccia;
+2. Definizione di tutti i "regni" e le loro "piccole divinità" (ognuna con le sue 3 caratteristiche), puoi trovarle [qui](#lista-dei-regni-con-le-loro-piccole-divinità-e-le-loro-piccole-caratteristiche);
+3. Definizione degli ingredeinti necessari ad invocare le piccole divinità, puoi trovarli [qui](#copilot-14122024-2254).
 
 __________________________________________________________
 
 **24 dicembre 2024**
 --------------------
 
-_**Log preview:**_
+**Log preview:**
 
 - **Cose fatte oggi:**
     1. Testing per comprendere meglio il funzionamento di libGDX.
@@ -200,17 +200,17 @@ _**Log preview:**_
     - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
 
 __________________________________________________________
-_**Log completo:**_
+**Log completo:**
 
-    1. Testing per comprendere meglio il funzionamento di libGDX:
-        - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni.
+1. Testing per comprendere meglio il funzionamento di libGDX:
+    - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni.
 
 __________________________________________________________
 
 **27 dicembre 2024**
 --------------------
 
-_**Log preview:**_
+**Log preview:**
 
 - **Cose fatte oggi:**
     1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi.
@@ -220,7 +220,7 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-    1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#).
+1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#idee-finali).
 
 __________________________________________________________
 
@@ -499,6 +499,7 @@ __________________________________________________________
 Idee finali
 -----------
 
+- Ingredienti e metodi (cottura, essiccazione, ecc...):
 ![Quaderno INI - 27/12/2024](images/quaderno_INI-27122024.jpg)
 
 __________________________________________________________
