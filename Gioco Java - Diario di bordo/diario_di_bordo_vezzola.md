@@ -15,6 +15,7 @@ Indice
     - [14/12/2024](#14-dicembre-2024)
     - [16/12/2024](#16-dicembre-2024)
     - [21/12/2024](#21-dicembre-2024)
+    - [24/12/2024](#24-dicembre-2024)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
@@ -204,8 +205,26 @@ _**Log completo:**_
     1. Testing per comprendere meglio il funzionamento di libGDX:
         - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni.
 
+__________________________________________________________
+
+**27 dicembre 2024**
+--------------------
+
+_**Log preview:**_
+
+- **Cose fatte oggi:**
+    1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi.
+- **Sitografia**:
+    - Tutte le ricerche sono state fatte su [Wikipedia](https://it.wikipedia.org/)
 
 __________________________________________________________
+_**Log completo:**_
+
+    1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#).
+
+__________________________________________________________
+
+
 
 _**Idee per il gioco**_
 =====================
@@ -213,8 +232,8 @@ _**Idee per il gioco**_
 Sketches
 --------
 
-- random:
-  - [anfore, vasetti, sacchi, Bat e Race (batrace = rana, rospo)](images/sketch_1.jpg)
+- oggetti e altro:
+  ![anfore, vasetti, sacchi e altro](images/sketch_1.jpg)
 
 __________________________________________________________
 
@@ -243,7 +262,7 @@ To pseudo Democritus, to make a desired substance you search for the qualities o
 To pseudo Democritus, gold isnt neccesarily a distinct substance as much as it is a combination of the qualities that make it metallic, yellowish, flexible, fusible, and perhaps most importantly, noble or resistant to fire. \
 Base metals like lead are already metallic, so you just need to alter their other qualities untill they match gold. \
 His gold mimicking comes on a spectrum, the simplest recipes arent meant to make gold as much as they are just meant to make a metal look yellow, more complex ones aim to imitate more of golds qualities, and the most complex try to imitate golds ability to resist fire without rustng. \
-It's not at all clear if he thinks this means hes actually made gold, or if more so he sees his work as having overcome the undesirable or corrupt atures of base metals making them more gold-like.
+It's not at all clear if he thinks this means hes actually made gold, or if more; so he sees his work as having overcome the undesirable or corrupt natures of base metals making them more gold-like.
 
 __________________________________________________________
 
@@ -255,10 +274,10 @@ Ricavate da [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa
   - un _"sentiero di pietra"_ che, attraversando il giardino, porta al gazebo;
   - il giardino è molto rigoglioso;
     - all'interno del giardino _"Linus non vide girasoli, ma calle e gigli. Dalie. Celosie. Crisantemi, gerbere arancioni e campanule. [ ] delle callicarpe [ ]. L'aria era densa e fragrante, stordiva quasi."_ ;
-  - un poco più in là _"[ ] cresceva un albero di mele, e Linus rimase interdetto vedendo frutti rossi, verdi e rosati, di tre varietà diverse, pendere dagli stessi rami."_ alla cui base vi era una gnoma da giardino che _"Aveva una folta barba bianca e le mani giunte"_ di nome Talia, dotata di una vanga e di pochissima pazienza (caratteristiche aggiuntive: impreca spesso in gnomico);
+  - un poco più in là _"[ ] cresceva un albero di mele, e Linus rimase interdetto vedendo frutti rossi, verdi e rosati, di tre varietà diverse, pendere dagli stessi rami."_ alla cui base vi era una gnoma da giardino che _"Aveva una folta barba bianca e le mani giunte"_ di nome Talia, dotata di una vanga e di pochissima pazienza;
 - una viverna dagli occhi arancioni, Theodore;
-  - descrizione, dal medesimo libro: le viverne sono rettili bipedi dotati di ali "poco più grandi di un gatto domestico", e dotate di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
-  - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia tale;
+  - descrizione, dal medesimo libro: le viverne sono rettili bipedi "poco più grandi di un gatto domestico", dotati di ali e di una complessità emotiva simile a quella umana, dalle scaglie opalescenti, che emette come verso una sorta di pigolio;
+  - richiede un oggetto da aggiungere al suo tesoro, preferibilmente di grande valore o che appaia averne;
 
 __________________________________________________________
 
@@ -279,7 +298,7 @@ __________________________________________________________
     - Piccola divinità delle Fiamme
         - rischiare, consumare, arroganza
     - Piccola divinità del Calore
-        - scottare, confortare, resistere
+        - scottare, confortare, desiderare
     - Piccola divinità del Sole
         - illuminare, sicurezza, guida
 
@@ -339,7 +358,7 @@ ciao, sto facendo un gioco e mi servirebbe che mi aiutassi a fare una lista di i
     - Confortare (Regno del Fuoco - Calore)
     - Crescita (Regno della Vita - Piante)
 
-4. **Radice di Mandragora**
+4. **Radice di Mandragola**
     - Resistere (Regno dell'Acqua - Laghi)
     - Oscurare (Regno dell'Acqua - Mari)
     - Fondamenta (Regno della Terra - Pianure)
@@ -475,6 +494,12 @@ __________________________________________________________
     - Fluidità (Regno dell'Aria - Venti)
     - Intelligenza (Regno della Vita - Funghi)
 ```
+__________________________________________________________
+
+Idee finali
+-----------
+
+![Quaderno INI - 27/12/2024](images/quaderno_INI-27122024.jpg)
 
 __________________________________________________________
 
