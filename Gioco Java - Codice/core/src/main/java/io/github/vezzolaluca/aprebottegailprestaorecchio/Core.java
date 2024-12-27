@@ -36,6 +36,8 @@ public class Core extends ApplicationAdapter {
         callicarpa = new Texture("callicarpa_full.png");
         
         spriteBatch = new SpriteBatch();
+
+        //ME: I parametri sono la larghezza e l'altezza della viewport, che non corrispondono a pixel ma a "metri" (non in scala reale).
         viewport = new FitViewport(8f, 5f);
     }
 
