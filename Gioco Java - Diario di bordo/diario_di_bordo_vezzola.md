@@ -16,6 +16,7 @@ Indice
     - [16/12/2024](#16-dicembre-2024)
     - [21/12/2024](#21-dicembre-2024)
     - [24/12/2024](#24-dicembre-2024)
+    - [27/12/2024](#27-dicembre-2024)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
