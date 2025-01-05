@@ -500,8 +500,67 @@ __________________________________________________________
 Idee finali
 -----------
 
-- Ingredienti e metodi (cottura, essiccazione, ecc...):
 ![Quaderno INI - 27/12/2024](images/quaderno_INI-27122024.jpg)
+
+- Finestre visibili al player:
+    1. Magazzino delle risorse (ingredienti e amuleti posseduti)
+    2. Ricettacolo delle offerte alle divinità (solo quelle scoperte)
+    3. "Albero" di tutte le divinità (solo quelle scoperte)
+
+- Zone dove si trovano le risorse:
+    1. Giardino
+    2. Mondo dei sogni
+    3. Grotta sotto la bottega
+
+- Altre zone:
+    1. Laboratorio
+    2. Banco per le vendite
+
+- Ingredienti:
+    1. Foglie d'Oro
+        - Prese dagli alberi di _Pioppi Tremuli_ nel giardino.
+    2. IridAcqua Ardente
+        - Vasetto di acqua iridescente e molto calda presa dalla pozza della stella cadente nella caverna sotto la bottega.
+    3. Muschio Sognatore
+        - Muschio, quasi lichene, fatto a spirali - preso dai sogni.
+    4. Zucche Minacciose
+        - Le "piccoline" di Talia, hanno preso tutto dalla mamma (molto irascibili). Zucche piccole, dalla forma contorta, quasi - anzi, sicuramente - a ricordare espressioni di rabbia.
+    5. Soffione Torvo
+        - (torvo = di sguardo o espressione, che esprime astio, rancore) Un soffione di colore blu scuro, che dura solo per pochi secondi dopo che il fiore lascia posto ai pappi (parte "piumosa").
+    6. Camomilla Torreggiante
+        - Fiori di camomilla molto più affusolati rispetto alla sua varietà pià comune, colti da piante dallo stelo alto fino a due metri.
+    7. Brodaglia Sulfurea
+        - Liquido giallo contenente zolfo, ottenuto dall'infusione di zolfo - ricavato dalle pareti della grotta - nell'IridAcqua Ardente.
+    8. Ghiaccio Nero
+        - Ispirato al "ghiaccio XVIII", una forma di ghiaccio molto più compatta di quello comune. Ha una temperatura altissima ed è di colore nero.
+    9. Ghiande delle Querce Gemelle
+        - Due o ghiande fuse assieme, frutto di una strana quercia "doppia".
+    10. Bismuto Allegro
+        - Cristalli di bismuto raccolti dalle pareti della caverna. E'"allegro" perchè ogni tanto produce un suono simille ad una risata.
+    11. Fungo parassitario
+        - Fungo singolo, alto pochi centimetri e dalla forma affusolata. Nasce dopo che le spore che hanno infettato una formica manipolano la loro ospite a salire il più in alto possibile per poi immobilizzarla. Si possono trovare osservando il tronco della pianta di mele da vicino.
+    12. Formiche Otri
+        - Formiche specializzate nell'immagazinamento di melata, una sostanza zuccherina prodotta dagli afidi, di cui le formiche stesse si nutrono. Si possono trovare osservando il tronco della pianta di mele da vicino.
+    13. Mele Variopinte
+        - Frutti di un melo che produce mele dalle più disparate varietà e tonalità. L'albero si trova in giardino.
+    14. Scaglia Opalescente
+        - Nel nido di Theodore (in soffitta) si possono trovare ogni mattina delle scaglie opalescenti che ha perso durante la notte.
+    15. Sabbia Setosa
+        - Sabbia nera a grana molto fine che costituisce il terreno nei sogni. Per limitarne la raccolta si può solo ottenere portandosi massimo due vasetti di vetro all'interno del sogno.
+
+
+- Strumenti:
+    1. Fili appesi al soffitto con mollette per essiccare
+    2. Forno a muro per cuocere o riscaldare
+    3. Infusiera per fare gli infusi
+    4. Macina a mano per macinare
+
+- Contenitori:
+    1. Vasetti di vetro - per i liquidi
+    2. Giare in ceramica - per i solidi e le polveri
+
+
+
 
 __________________________________________________________
 
