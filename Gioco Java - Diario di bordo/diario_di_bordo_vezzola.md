@@ -495,12 +495,13 @@ __________________________________________________________
     - Fluidità (Regno dell'Aria - Venti)
     - Intelligenza (Regno della Vita - Funghi)
 ```
+
+![Quaderno INI - 27/12/2024](images/quaderno_INI-27122024.jpg)
+
 __________________________________________________________
 
 Idee finali
 -----------
-
-![Quaderno INI - 27/12/2024](images/quaderno_INI-27122024.jpg)
 
 - Finestre visibili al player:
     1. Magazzino delle risorse (ingredienti e amuleti posseduti)
@@ -515,6 +516,7 @@ Idee finali
 - Altre zone:
     1. Laboratorio
     2. Banco per le vendite
+    3. Camera da letto
 
 - Ingredienti:
     1. Foglie d'Oro
