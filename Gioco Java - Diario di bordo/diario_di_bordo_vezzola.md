@@ -503,6 +503,9 @@ __________________________________________________________
 Idee finali
 -----------
 
+- Scopo del gioco:
+    Aiutare amici, familiari e stranieri che vengono alla bottega, trovando modi per risolvere i loro problemi; costruendo rapporti profondi e unici con ognuno di loro.
+
 - Finestre visibili al player:
     1. Magazzino delle risorse (ingredienti e amuleti posseduti)
     2. Ricettacolo delle offerte alle divinità (solo quelle scoperte)
@@ -562,8 +565,16 @@ Idee finali
     2. Giare in ceramica - per i solidi e le polveri
 
 
-
-
+- Easter eggs:
+    1. Fabrizio (Orlando)
+    2. (Alex)
+    3. (Davide)
+    4. (Diana)
+    5. (Emma)
+    6. (Arianna)
+    7. (Sophie)
+    8. (la 3CI del 2023/24)
+    9. (Il Salòtto)
 __________________________________________________________
 
 _**Legenda linguaggio Markdown**_
