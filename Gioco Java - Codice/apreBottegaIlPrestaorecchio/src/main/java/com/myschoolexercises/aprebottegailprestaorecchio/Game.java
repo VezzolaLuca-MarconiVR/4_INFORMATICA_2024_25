@@ -1,12 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.myschoolexercises.aprebottegailprestaorecchio;
 
 import javax.swing.*;
 import java.awt.*;
-import javax.swing.ImageIcon;
 
 /**
  *
@@ -27,7 +22,7 @@ public class Game extends JPanel{
         
         
         //Using ImageIcon and getResource but then using a getImege is a more robust way for loading an image
-        backgroundImg = new ImageIcon(getClass().getResource("/images/QG_Nerv.png")).getImage();
+        // backgroundImg = new ImageIcon(getClass().getResource("/images/img.png")).getImage();
         
     }
     

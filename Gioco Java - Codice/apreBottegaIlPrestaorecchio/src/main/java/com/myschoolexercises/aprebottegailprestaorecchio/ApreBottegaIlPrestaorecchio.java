@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.myschoolexercises.aprebottegailprestaorecchio;
 
 import javax.swing.*;
@@ -21,16 +17,16 @@ public class ApreBottegaIlPrestaorecchio {
         int frameHeight = 600;
 
         //Creating the window
-        JFrame game = new JFrame();
-        game.setSize(frameWidth, frameHeight);
-        game.setLocationRelativeTo(null);
-        game.setResizable(false);
-        game.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JFrame window = new JFrame();
+        window.setSize(frameWidth, frameHeight);
+        window.setLocationRelativeTo(null);
+        window.setResizable(false);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        Game core = new Game();
-        game.add(core);
+        Game game = new Game();
+        window.add(game);
         //game.pack();
         
-        game.setVisible(true);
+        window.setVisible(true);
     }
 }

@@ -17,6 +17,7 @@ Indice
     - [21/12/2024](#21-dicembre-2024)
     - [24/12/2024](#24-dicembre-2024)
     - [27/12/2024](#27-dicembre-2024)
+    - [19/12/2025](#19-gennaio-2025)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
@@ -222,6 +223,25 @@ __________________________________________________________
 _**Log completo:**_
 
 1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#idee-finali).
+
+__________________________________________________________
+
+**19 gennaio 2025**
+--------------------
+
+**Log preview:**
+
+- **Cose fatte oggi:**
+    1. Definizione della struttura delle classi;
+    2. Ri-definizione dello scopo del gioco.
+- **Sitografia**:
+    - " "
+
+__________________________________________________________
+_**Log completo:**_
+
+1. Definizione della struttura delle classi all'interno del progetto mediante l'utilizzo di classi padre astratte;
+2. Ri-definizione dello scopo del gioco - puoi trovarlo [qui](#idee-finali).
 
 __________________________________________________________
 
