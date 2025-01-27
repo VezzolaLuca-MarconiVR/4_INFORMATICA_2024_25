@@ -18,6 +18,7 @@ Indice
     - [24/12/2024](#24-dicembre-2024)
     - [27/12/2024](#27-dicembre-2024)
     - [19/12/2025](#19-gennaio-2025)
+    - [27/12/2025](#27-gennaio-2025)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
@@ -32,16 +33,16 @@ _**Diario di bordo**_
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Studio linguaggio Markdown;
-    2. Definizione degli aspetti principali del gioco.
+    1. Studio linguaggio Markdown
+    2. Definizione degli aspetti principali del gioco
 - **Sitografia**:
     - <https://www.html.it/articoli/markdown-guida-al-linguaggio/>
 
 __________________________________________________________
 _**Log completo:**_
 
-1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown);
-2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali).
+1. Studio linguaggio di markdown da [questo link](https://www.html.it/articoli/markdown-guida-al-linguaggio/), ciò che ho imparato sul Markdown è scritto [qui](#x-legenda-linguaggio-markdown)
+2. Puoi trovare la definizione degli aspetti principali del gioco [qui](#idee-iniziali)
 
 __________________________________________________________
 
@@ -51,8 +52,8 @@ __________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco;
-    2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni presi dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste).
+    1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco
+    2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni presi dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste)
 - **Sitografia**:
     - <https://www.youtube.com/watch?v=1DCBVxH86OE>
     - <https://it.wikipedia.org/wiki/Prima_materia>
@@ -61,8 +62,8 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works);
-2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste).
+1. Ricerca sull'alchimia e sulla sua storia, in funzione di una maggiore accuratezza storica nel gioco dai siti indicati nella sitografia, puoi vedere il materiale scritto [qui](#ricavate-da-i-learned-alchemy-from-medieval-manuscripts-heres-how-it-works)
+2. Aggiunta all'idea del gioco di alcuni elementi fantastici e di ambientazioni dal libro [_"La casa sul mare celeste"_](https://it.wikipedia.org/wiki/La_casa_sul_mare_celeste), puoi vedere il materiale scritto [qui](#ricavate-da-la-casa-sul-mare-celeste)
 
 __________________________________________________________
 
@@ -71,8 +72,8 @@ __________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Ricerca delle librerie utili al progetto;
-    2. Studio di JavaFX.
+    1. Ricerca delle librerie utili al progetto
+    2. Studio di JavaFX
 - **Sitografia**:
     - <https://aulab.it/guide-avanzate/javafx/>
     - <https://www.oracle.com/it/java/technologies/javase/javafx-overview.html>
@@ -81,7 +82,7 @@ _**Log preview:**_
 ___________________________________________________________
 _**Log completo:**_
 
-1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/);
+1. Ricerca delle librerie utili al progetto da [questo sito](https://aulab.it/guide-avanzate/javafx/)
 2. Studio di JavaFX con particolare attenzione alle seguenti funzionalità:
     - [path con orientazione del punto in movimento](https://openjfx.io/javadoc/22/javafx.graphics/javafx/animation/PathTransition.OrientationType.html);
     - [forme geometriche](https://openjfx.io/javadoc/22/javafx.graphics/javafx/geometry/package-summary.html)
@@ -93,8 +94,8 @@ ___________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Ricerca sulla pixel art;
-    2. Disegno di bozze di prova con GraphicsGale.
+    1. Ricerca sulla pixel art
+    2. Disegno di bozze di prova con GraphicsGale
 - **Sitografia**:
     - <https://graphicsgale.com/us/>
     - <https://www.youtube.com/watch?v=3dSspGMI7d4&ab_channel=DraginoffGaming>
@@ -103,8 +104,8 @@ _**Log preview:**_
 ___________________________________________________________
 _**Log completo:**_
 
-1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/);
-2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png)).
+1. Ricerca sulla pixel art, grazie alla quale ho scoperto [GraphicsGale](https://graphicsgale.com/us/)
+2. Disegno di bozze di prova con GraphicsGale ([esempio immagine](./images/callicarpa/callicarpa_full.png))
 
 ___________________________________________________________
 
@@ -113,8 +114,8 @@ ___________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Ricerca sulla libreria libGDX;
-    2. Download e set up dell'ambiente di sviluppo.
+    1. Ricerca sulla libreria libGDX
+    2. Download e set up dell'ambiente di sviluppo
 - **Sitografia**:
     - [LibGDX Source & Documentation](https://libgdx.com/dev/)
     - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
@@ -124,8 +125,8 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-1. Ricerca sulla libreria GDX, con pochi risultati;
-2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente.
+1. Ricerca sulla libreria GDX, con pochi risultati
+2. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX), non riuscito totalmente
 
 __________________________________________________________
 
@@ -134,9 +135,9 @@ __________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-      1. Download e set up dell'ambiente di sviluppo;
-      2. Studio di Git e GitHub;
-      3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco.
+      1. Download e set up dell'ambiente di sviluppo
+      2. Studio di Git e GitHub
+      3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco
 - **Sitografia**:
     - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
         - [Link download Eclipse per Java](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-12/R/eclipse-java-2024-12-R-win32-x86_64.zip)
@@ -147,9 +148,9 @@ _**Log preview:**_
 __________________________________________________________
 _**Log completo:**_
 
-1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff";
+1. Download e set up dell'ambiente di sviluppo (Eclipse + libGDX) - questa volta è riuscito - e creazione dei file necessari al progetto tramite "gdx-liftoff"
 2. Studio di Git e GitHub, salvataggio di una repository e successivo push su GitHub;
-3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254).
+3. Utilizzo di Copilot per delineare la lista degi ingredienti che saranno poi presenti nel gioco, puoi leggere l'output di Copilot [qui](#copilot-14122024-2254)
 
 __________________________________________________________
 
@@ -159,14 +160,14 @@ __________________________________________________________
 _**Log preview:**_
 
 - **Cose fatte oggi:**
-    1. Ricerca rivolta alla comprensione della struttura dati di un progetto libGDX.
+    1. Ricerca rivolta alla comprensione della struttura dati di un progetto libGDX
 - **Sitografia**:
     - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
 
 __________________________________________________________
 _**Log completo:**_
 
-1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff".
+1. Ricerca rivolta alla comprensione della struttura dati di un progetto java creato con "gdx-liftoff"
 
 __________________________________________________________
 
@@ -177,8 +178,8 @@ _**Log preview:**_
 
 - **Cose fatte oggi:**
     1. Creazione della classe MyGame;
-    2. Definizione di tutti i "regni" e le loro "piccole divinità";
-    3. Definizione degli ingredienti con l'aiuto di Copilot.
+    2. Definizione di tutti i "regni" e le loro divinità
+    3. Definizione degli ingredienti con l'aiuto di Copilot
 - **Sitografia**:
   - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
 
@@ -197,7 +198,7 @@ __________________________________________________________
 **Log preview:**
 
 - **Cose fatte oggi:**
-    1. Testing per comprendere meglio il funzionamento di libGDX.
+    1. Testing per comprendere meglio il funzionamento di libGDX
 - **Sitografia**:
     - [Set Up a Dev Env](https://libgdx.com/wiki/start/setup)
 
@@ -205,7 +206,7 @@ __________________________________________________________
 **Log completo:**
 
 1. Testing per comprendere meglio il funzionamento di libGDX:
-    - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni.
+    - Creazione di un ambiente 2d dove ci si può muovere in tutte le direzioni
 
 __________________________________________________________
 
@@ -215,14 +216,14 @@ __________________________________________________________
 **Log preview:**
 
 - **Cose fatte oggi:**
-    1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi.
+    1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi
 - **Sitografia**:
     - Tutte le ricerche sono state fatte su [Wikipedia](https://it.wikipedia.org/)
 
 __________________________________________________________
 _**Log completo:**_
 
-1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#idee-finali).
+1. Definizione degli ingredienti e dei metodi di lavorazione degli stessi, puoi trovare tutto [qui](#idee-finali)
 
 __________________________________________________________
 
@@ -232,16 +233,43 @@ __________________________________________________________
 **Log preview:**
 
 - **Cose fatte oggi:**
-    1. Definizione della struttura delle classi;
-    2. Ri-definizione dello scopo del gioco.
+    1. Definizione della struttura delle classi
+    2. Ri-definizione dello scopo del gioco
 - **Sitografia**:
     - " "
 
 __________________________________________________________
 _**Log completo:**_
 
-1. Definizione della struttura delle classi all'interno del progetto mediante l'utilizzo di classi padre astratte;
-2. Ri-definizione dello scopo del gioco - puoi trovarlo [qui](#idee-finali).
+1. Definizione della struttura delle classi all'interno del progetto mediante l'utilizzo di classi padre astratte
+2. Ri-definizione dello scopo del gioco - puoi trovarlo [qui](#idee-finali)
+
+__________________________________________________________
+
+**27 gennaio 2025**
+--------------------
+
+**Log preview:**
+
+- **Cose fatte oggi:**
+    1. Capire "[Ashley](https://github.com/libgdx/ashley/wiki)" - il "[component-entity-system](https://www.gamedev.net/tutorials/programming/general-and-gameplay-programming/understanding-component-entity-systems-r3013/)" d'eccellenza per libGDX
+    2. Totale eliminazione e riscrittura del codice del progetto - ritorno a libGDX
+- **Sitografia**:
+    - https://github.com/libgdx/ashley/blob/master/tests/src/com/badlogic/ashley/tests/components/MovementComponent.java
+    - https://javadoc.io/doc/com.badlogicgames.ashley/ashley/latest/index.html
+    - https://libgdx.com/wiki/extensions/physics/box2d
+    - https://github.com/libgdx/box2dlights
+    - https://libgdxinfo.wordpress.com/basic-label/
+    - https://libgdx.com/wiki/start/a-simple-game
+    - https://www.reverso.net/traduzione-testo#sl=eng&tl=ita&text=questions
+    - https://copilot.microsoft.com/chats/988GisXasWcQjg4q3Vp2L
+
+__________________________________________________________
+_**Log completo:**_
+
+1. Capire "[Ashley](https://github.com/libgdx/ashley/wiki)" - il "[component-entity-system](https://www.gamedev.net/tutorials/programming/general-and-gameplay-programming/understanding-component-entity-systems-r3013/)" d'eccellenza per libGDX.
+2. Totale eliminazione e riscrittura del codice del progetto - ritorno all'utilizzo di libGDX, swing ha carenze in esempi di implementazione in giochi, di flessibilità e di funzionalità
+
 
 __________________________________________________________
 
