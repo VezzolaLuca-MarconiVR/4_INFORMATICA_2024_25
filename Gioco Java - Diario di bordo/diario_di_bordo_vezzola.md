@@ -19,6 +19,7 @@ Indice
     - [27/12/2024](#27-dicembre-2024)
     - [19/12/2025](#19-gennaio-2025)
     - [27/12/2025](#27-gennaio-2025)
+    - [30/12/2024](#30-gennaio-2025)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
@@ -270,6 +271,22 @@ _**Log completo:**_
 1. Capire "[Ashley](https://github.com/libgdx/ashley/wiki)" - il "[component-entity-system](https://www.gamedev.net/tutorials/programming/general-and-gameplay-programming/understanding-component-entity-systems-r3013/)" d'eccellenza per libGDX.
 2. Totale eliminazione e riscrittura del codice del progetto - ritorno all'utilizzo di libGDX, swing ha carenze in esempi di implementazione in giochi, di flessibilità e di funzionalità
 
+__________________________________________________________
+
+**30 gennaio 2025**
+--------------------
+
+**Log preview:**
+
+- **Cose fatte oggi:**
+    1. Definizione struttura progetto
+- **Sitografia**:
+    - https://mm.tt/
+
+__________________________________________________________
+_**Log completo:**_
+
+1. Definizione struttura delle clssi utilizzando il pattern MVC, lo puoi trovare a [questo link](https://mm.tt/app/map/3599616749?t=YufA4TlpJo) _(Account di accesso - namwons.luca2)_
 
 __________________________________________________________
 
