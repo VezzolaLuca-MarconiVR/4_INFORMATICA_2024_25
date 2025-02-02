@@ -1,6 +1,15 @@
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 eclipse.project.name = appName + '-core'
 
+sourceSets {
+    main {
+        resources {
+            // Utilizza il percorso relativo alla cartella 'core' per accedere alla cartella 'assets' nella radice del progetto
+            srcDirs = ["../assets"]
+        }
+    }
+}
+
 dependencies {
   api "com.badlogicgames.ashley:ashley:$ashleyVersion"
   api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
