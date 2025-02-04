@@ -15,6 +15,7 @@ public class GameModel {
     public GameModel() {
         AssetLoader.load();
         Texture playerTexture = AssetLoader.manager.get(AssetLoader.BUCKET_TEXTURE, Texture.class);
+        
         //Initialize the player's texture and position (sprite)
         player = new PlayerModel(playerTexture, 1, 1, 1, 1);
         

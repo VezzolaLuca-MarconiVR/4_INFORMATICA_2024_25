@@ -45,11 +45,11 @@ public class GameView {
         
         
         //Drawing the background
-        Texture backgroundTexture = AssetLoader.manager.get(AssetLoader.BACKGROUND_TEXTURE, Texture.class); //Obtain the background's texture from the asset manager
-        spriteBatch.draw(backgroundTexture, 0, 0, gameModel.getViewport().getWorldWidth(), gameModel.getViewport().getWorldHeight()); // draw the background
+        //Obtain the background's texture from the asset manager and add it to the spriteBatch
+        spriteBatch.draw(AssetLoader.manager.get(AssetLoader.BACKGROUND_TEXTURE, Texture.class), 0, 0, gameModel.getViewport().getWorldWidth(), gameModel.getViewport().getWorldHeight()); // draw the background
 
         //Drawing the player
-        spriteBatch.draw(gameModel.getPlayer().getTexture(), gameModel.getPlayer().getX(), gameModel.getPlayer().getY());
+        spriteBatch.draw(gameModel.getPlayer().getTexture(), gameModel.getPlayer().getX(), gameModel.getPlayer().getY(), gameModel.getPlayer().getWidth(), gameModel.getPlayer().getHeight());
         
         
         spriteBatch.end();//Closes the spriteBatch

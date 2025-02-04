@@ -18,10 +18,10 @@ public class GameController {
         float delta = Gdx.graphics.getDeltaTime();
         PlayerModel player = gameModel.getPlayer();
 
-        // Input da tastiera
-        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+        //Keyboard movement
+        if (Gdx.input.isKeyPressed(Input.Keys.D)){
             player.moveX(speed * delta);
-        } else if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+        } else if (Gdx.input.isKeyPressed(Input.Keys.A)){
             player.moveX(-speed * delta);
         }
 
@@ -29,7 +29,8 @@ public class GameController {
         if (Gdx.input.isTouched()) {
             Vector2 touchPos = new Vector2(Gdx.input.getX(), Gdx.input.getY());
             gameModel.getViewport().unproject(touchPos);
-            player.setPosition(touchPos.x - player.getWidth() / 2, touchPos.y - player.getY() / 2);
+            player.setPosition(touchPos.x - player.getWidth() / 2, touchPos.y - player.getHeight() / 2);
         }
+        
     }
 }
