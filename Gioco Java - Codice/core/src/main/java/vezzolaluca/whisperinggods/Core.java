@@ -4,6 +4,7 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.physics.box2d.Box2D;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
@@ -32,6 +33,8 @@ public class Core extends ApplicationAdapter {
     
     @Override
     public void create() {
+        Box2D.init(); //Initializin ìg Box2D, otherwise the natives won't be loaded before the world gets loaded
+        
         //Creating all three parts of the game, following the MVC pattern
         gameModel = new GameModel();
         gameView = new GameView(gameModel, viewport);
@@ -41,8 +44,10 @@ public class Core extends ApplicationAdapter {
     @Override
     public void render() {
         //Calling the Controller and View's methods to do the game logic (gameController) and the visualization (gameView)
-        gameController.control();
+        gameController.manageInput();
         gameView.draw(gameModel.getSpriteBatch());
+        gameController.managePhysics();
+        
     }
     
     @Override

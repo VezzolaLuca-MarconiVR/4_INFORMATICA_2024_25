@@ -13,16 +13,17 @@ public class GameController {
         this.gameView = view;
     }
 
-    public void control() {
-        float speed = 4f;
-        float delta = Gdx.graphics.getDeltaTime();
+    //Manages the input from the keyboard and mouse (and touch)
+    public void manageInput() {
+        float delta = gameModel.getDeltaTime();
         PlayerModel player = gameModel.getPlayer();
+        float speed = gameModel.getPlayer().getSpeed();
 
-        //Keyboard movement
-        if (Gdx.input.isKeyPressed(Input.Keys.D)){
-            player.moveX(speed * delta);
-        } else if (Gdx.input.isKeyPressed(Input.Keys.A)){
-            player.moveX(-speed * delta);
+        //Player motion
+        if (Gdx.input.isKeyPressed(Input.Keys.D) && Constants.MAX_PLAYER_SPEED > gameModel.getPlayerBody().getLinearVelocity().x){
+            gameModel.getPlayerBody().applyForceToCenter(0.5f, 0f, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.A) && Constants.MAX_PLAYER_SPEED > -gameModel.getPlayerBody().getLinearVelocity().x){
+            gameModel.getPlayerBody().applyForceToCenter(-0.5f, 0f, true);
         }
 
         // Input mouse o touch
@@ -31,6 +32,19 @@ public class GameController {
             gameModel.getViewport().unproject(touchPos);
             player.setPosition(touchPos.x - player.getWidth() / 2, touchPos.y - player.getHeight() / 2);
         }
+    }
+    
+    //Manages the stepping of the physics simulation
+    public void managePhysics(){
+        float accumulator = 0;
         
+        // fixed time step
+        // max frame time to avoid spiral of death (on slow devices)
+        float frameTime = Math.min(gameModel.getDeltaTime(), 0.25f);
+        accumulator += frameTime;
+        while (accumulator >= Constants.TIME_STEP) {
+            gameModel.getWorld().step(Constants.TIME_STEP, Constants.VELOCITY_ITERATIONS, Constants.POSITION_ITERATIONS);
+            accumulator -= Constants.TIME_STEP;
+        }
     }
 }

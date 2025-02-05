@@ -51,7 +51,8 @@ public class GameView {
         //Drawing the player
         spriteBatch.draw(gameModel.getPlayer().getTexture(), gameModel.getPlayer().getX(), gameModel.getPlayer().getY(), gameModel.getPlayer().getWidth(), gameModel.getPlayer().getHeight());
         
-        
         spriteBatch.end();//Closes the spriteBatch
+        
+        gameModel.getDebugRenderer().render(gameModel.getWorld(), gameModel.getViewport().getCamera().combined);
     }
 }
