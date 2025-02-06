@@ -21,12 +21,16 @@ public class GameController {
         if (Gdx.input.isKeyPressed(Input.Keys.D) && Constants.MAX_PLAYER_SPEED > gameModel.getPlayerBody().getLinearVelocity().x){
             player.getBody().applyForceToCenter(player.getMovementVector(), true);
         } else if (Gdx.input.isKeyPressed(Input.Keys.A) && Constants.MAX_PLAYER_SPEED > -gameModel.getPlayerBody().getLinearVelocity().x){
-            player.getBody().applyForceToCenter(player.getMovementVector(), true);
+            player.getBody().applyForceToCenter(-player.getMovementVector().x, 0, true);
         }
-//        //Jump
-//        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)){
-//            player.getBody().applyLinearImpulse(player.getJumpVector(), player.getBody().getLocalCenter(), true); //.getLocalCenter() returns the center of mass so it applies the impulse without any torque
-//        }
+        //Jump
+        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)){
+            player.getBody().applyLinearImpulse(player.getJumpVector(), player.getBody().getPosition(), true); //.getLocalCenter() returns the center of mass so it applies the impulse without any torque
+        }
+        
+        if (player.getBody().getPosition() != player.getPosition()){
+            player.setPosition(player.getBody().getPosition().x - player.getWidth()/2, player.getBody().getPosition().y - player.getHeight()/2);
+        }
     }
     
     //Manages the stepping of the physics simulation

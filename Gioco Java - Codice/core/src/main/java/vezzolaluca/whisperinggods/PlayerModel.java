@@ -7,7 +7,7 @@ import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
-import com.badlogic.gdx.physics.box2d.PolygonShape;
+import com.badlogic.gdx.physics.box2d.CircleShape;
 
 public class PlayerModel {
     private Sprite sprite;
@@ -26,7 +26,7 @@ public class PlayerModel {
         
         //Movement initialization
         movementVector = new Vector2(5f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
-        //jumpVector = new Vector2(0f, 20f); //Use it for an upwards impulse
+        jumpVector = new Vector2(0f, 1f); //Use it for an upwards impulse
         
         //Body-definition initialization
         //The body descryption
@@ -35,17 +35,15 @@ public class PlayerModel {
         bodyDef.position.set(x, y); //Sets the position fo the simulation corresponding to the position of the center of the sprite
         
         //Body fixture-definition and fixture initialization
-        PolygonShape rectangle = new PolygonShape();
-        rectangle.setAsBox(width, height);
+        CircleShape circle = new CircleShape();
+        circle.setRadius(width/2);
         
         fixtureDef = new FixtureDef();
         
-        fixtureDef.shape = rectangle;
-        fixtureDef.density = 0.6f;
-        fixtureDef.friction = 0.4f;
-        fixtureDef.restitution = 0.4f;
-        
-        rectangle.dispose(); //Disposing the shape since it won't be used anymore
+        fixtureDef.shape = circle;
+        fixtureDef.density = 1f;
+        fixtureDef.friction = 1f;
+        fixtureDef.restitution = 0f;
     }
     
     
@@ -57,6 +55,13 @@ public class PlayerModel {
         sprite.setY(pos.y);
         
     }
+    
+    public void setPosition(float x, float y) {
+        sprite.setX(x);
+        sprite.setY(y);
+        
+    }
+    
     public Vector2 getPosition(){
         Vector2 position = new Vector2(sprite.getX(), sprite.getY());
         return position;
