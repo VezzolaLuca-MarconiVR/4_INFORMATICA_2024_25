@@ -2,40 +2,40 @@ package vezzolaluca.whisperinggods;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
-import com.badlogic.gdx.physics.box2d.CircleShape;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
 
 public class PlayerModel {
     private Sprite sprite;
-    private float x;
-    private float y;
-    private float width;
-    private float height;
-    private float speed; //(in the x direction)
-    private float acceleration;
+    private Vector2 movementVector; //The force of the movement of the player [Newton/s]
+    private Vector2 jumpVector; //The vector of the impulse allpied when jumping
     
     //phisics2D
     private BodyDef bodyDef; //Body-definition
     private FixtureDef fixtureDef; //Fixture-definition
-    private PolygonShape rectangle;
+    private Body body;
 
     public PlayerModel(Texture texture, float x, float y, float width, float height) {
-        //Input parameters
+        //Sprite initialization
         sprite = new Sprite(texture);
         sprite.setBounds(x, y, width, height);
         
+        //Movement initialization
+        movementVector = new Vector2(5f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
+        //jumpVector = new Vector2(0f, 20f); //Use it for an upwards impulse
+        
         //Body-definition initialization
-        speed = 0.2f;
         //The body descryption
         bodyDef = new BodyDef();
         bodyDef.type = BodyType.DynamicBody; //A dynamic body moves when a force is applied
         bodyDef.position.set(x, y); //Sets the position fo the simulation corresponding to the position of the center of the sprite
         
         //Body fixture-definition and fixture initialization
-        rectangle = new PolygonShape();
+        PolygonShape rectangle = new PolygonShape();
         rectangle.setAsBox(width, height);
         
         fixtureDef = new FixtureDef();
@@ -45,16 +45,20 @@ public class PlayerModel {
         fixtureDef.friction = 0.4f;
         fixtureDef.restitution = 0.4f;
         
-        //circle.dispose(); //Disposing the shape since it won't be used anymore
+        rectangle.dispose(); //Disposing the shape since it won't be used anymore
     }
-
-    public void setPosition(float x, float y) {
-        sprite.setX(x);
-        sprite.setY(y);
+    
+    
+    //GETTERS AND SETTERS
+    
+    //Sprite
+    public void setPosition(Vector2 pos) {
+        sprite.setX(pos.x);
+        sprite.setY(pos.y);
         
     }
-    public float[] getPosition(){
-        float[] position = {sprite.getX(), sprite.getY()};
+    public Vector2 getPosition(){
+        Vector2 position = new Vector2(sprite.getX(), sprite.getY());
         return position;
     }
     
@@ -107,16 +111,26 @@ public class PlayerModel {
     public Sprite getSprite(){
         return sprite;
     }
-
-    public float getSpeed() {
-        return speed;
+    
+    //Movement
+    public Vector2 getMovementVector() {
+        return movementVector;
     }
 
-    public void setSpeed(float speed) {
-        this.speed = speed;
+    public void setMovementVector(Vector2 movementVector) {
+        this.movementVector = movementVector;
+    }
+
+    public Vector2 getJumpVector() {
+        return jumpVector;
+    }
+
+    public void setJumpVector(Vector2 jumpVector) {
+        this.jumpVector = jumpVector;
     }
     
-    //Physics getters and setters
+    
+    //Physics
     public BodyDef getBodyDef() {
         return bodyDef;
     }
@@ -131,5 +145,13 @@ public class PlayerModel {
 
     public void setFixtureDef(FixtureDef fixtureDef) {
         this.fixtureDef = fixtureDef;
+    }
+
+    public Body getBody() {
+        return body;
+    }
+
+    public void setBody(Body body) {
+        this.body = body;
     }
 }

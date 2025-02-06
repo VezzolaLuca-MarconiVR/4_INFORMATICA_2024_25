@@ -2,7 +2,6 @@ package vezzolaluca.whisperinggods;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.math.Vector2;
 
 public class GameController {
     private GameModel gameModel;
@@ -15,23 +14,19 @@ public class GameController {
 
     //Manages the input from the keyboard and mouse (and touch)
     public void manageInput() {
-        float delta = gameModel.getDeltaTime();
         PlayerModel player = gameModel.getPlayer();
-        float speed = gameModel.getPlayer().getSpeed();
-
+        
         //Player motion
+        //Movement
         if (Gdx.input.isKeyPressed(Input.Keys.D) && Constants.MAX_PLAYER_SPEED > gameModel.getPlayerBody().getLinearVelocity().x){
-            gameModel.getPlayerBody().applyForceToCenter(0.5f, 0f, true);
+            player.getBody().applyForceToCenter(player.getMovementVector(), true);
         } else if (Gdx.input.isKeyPressed(Input.Keys.A) && Constants.MAX_PLAYER_SPEED > -gameModel.getPlayerBody().getLinearVelocity().x){
-            gameModel.getPlayerBody().applyForceToCenter(-0.5f, 0f, true);
+            player.getBody().applyForceToCenter(player.getMovementVector(), true);
         }
-
-        // Input mouse o touch
-        if (Gdx.input.isTouched()) {
-            Vector2 touchPos = new Vector2(Gdx.input.getX(), Gdx.input.getY());
-            gameModel.getViewport().unproject(touchPos);
-            player.setPosition(touchPos.x - player.getWidth() / 2, touchPos.y - player.getHeight() / 2);
-        }
+//        //Jump
+//        if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)){
+//            player.getBody().applyLinearImpulse(player.getJumpVector(), player.getBody().getLocalCenter(), true); //.getLocalCenter() returns the center of mass so it applies the impulse without any torque
+//        }
     }
     
     //Manages the stepping of the physics simulation

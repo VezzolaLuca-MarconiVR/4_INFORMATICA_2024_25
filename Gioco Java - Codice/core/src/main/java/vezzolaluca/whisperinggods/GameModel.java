@@ -46,8 +46,8 @@ public class GameModel {
         gravity = new Vector2(0, -10);
         world = new World(gravity, true);
         
-        playerBody = world.createBody(player.getBodyDef()); // Create the player body in the world using its body definition
-        playerBody.createFixture(player.getFixtureDef()); //Attach the player fixture to the player body
+        player.setBody(world.createBody(player.getBodyDef())); // Create the player body in the world using its body definition
+        player.getBody().createFixture(player.getFixtureDef()); //Attach the player fixture to the player body
         
         // Create our body definition
         BodyDef groundBodyDef = new BodyDef();  
