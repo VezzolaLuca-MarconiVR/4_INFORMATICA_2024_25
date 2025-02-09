@@ -17,9 +17,10 @@ Indice
     - [21/12/2024](#21-dicembre-2024)
     - [24/12/2024](#24-dicembre-2024)
     - [27/12/2024](#27-dicembre-2024)
-    - [19/12/2025](#19-gennaio-2025)
-    - [27/12/2025](#27-gennaio-2025)
-    - [30/12/2024](#30-gennaio-2025)
+    - [19/01/2025](#19-gennaio-2025)
+    - [27/01/2025](#27-gennaio-2025)
+    - [30/01/2025](#30-gennaio-2025)
+    - [9/02/2025](#9-febbraio-2025)
 - [Idee per il gioco](#idee-per-il-gioco)
 - [Legenda linguaggio Markdown](#legenda-linguaggio-markdown)
 
@@ -290,6 +291,22 @@ _**Log completo:**_
 
 __________________________________________________________
 
+**9 febbraio 2025**
+--------------------
+
+**Log preview:**
+
+- **Cose fatte oggi:**
+    1. Studio di box2D e creazione di un piccolo test fisico
+- **Sitografia**:
+    - https://libgdx.com/wiki/extensions/physics/box2d
+
+__________________________________________________________
+_**Log completo:**_
+
+1. Studio del funzionamento di box2D e creazione di un piccolo test fisico con corpi statici e dinamici
+
+__________________________________________________________
 
 
 _**Idee per il gioco**_

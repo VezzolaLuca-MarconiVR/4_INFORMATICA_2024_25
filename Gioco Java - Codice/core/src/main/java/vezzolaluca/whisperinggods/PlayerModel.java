@@ -8,6 +8,7 @@ import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.CircleShape;
+import com.badlogic.gdx.physics.box2d.World;
 
 public class PlayerModel {
     private Sprite sprite;
@@ -25,8 +26,8 @@ public class PlayerModel {
         sprite.setBounds(x, y, width, height);
         
         //Movement initialization
-        movementVector = new Vector2(5f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
-        jumpVector = new Vector2(0f, 1f); //Use it for an upwards impulse
+        movementVector = new Vector2(20f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
+        jumpVector = new Vector2(0f, 7f); //Use it for an upwards impulse
         
         //Body-definition initialization
         //The body descryption
@@ -35,21 +36,20 @@ public class PlayerModel {
         bodyDef.position.set(x, y); //Sets the position fo the simulation corresponding to the position of the center of the sprite
         
         //Body fixture-definition and fixture initialization
-        CircleShape circle = new CircleShape();
-        circle.setRadius(width/2);
+        CircleShape rectangle = new CircleShape();
+        rectangle.setRadius(width/2);
         
         fixtureDef = new FixtureDef();
         
-        fixtureDef.shape = circle;
+        fixtureDef.shape = rectangle;
         fixtureDef.density = 1f;
-        fixtureDef.friction = 1f;
+        fixtureDef.friction = 5f;
         fixtureDef.restitution = 0f;
     }
     
     
-    //GETTERS AND SETTERS
-    
-    //Sprite
+    //ALL GETTERS AND SETTERS:
+    //Sprite getters and setters
     public void setPosition(Vector2 pos) {
         sprite.setX(pos.x);
         sprite.setY(pos.y);
@@ -109,7 +109,6 @@ public class PlayerModel {
         return sprite.getTexture();
     }
     
-    
     public void setSprite(Sprite sprite){
         this.sprite = sprite;
     }    
@@ -117,7 +116,7 @@ public class PlayerModel {
         return sprite;
     }
     
-    //Movement
+    //Movement getters and setters
     public Vector2 getMovementVector() {
         return movementVector;
     }
@@ -135,28 +134,18 @@ public class PlayerModel {
     }
     
     
-    //Physics
-    public BodyDef getBodyDef() {
-        return bodyDef;
-    }
-
-    public void setBodyDef(BodyDef bodyDef) {
-        this.bodyDef = bodyDef;
-    }
-
-    public FixtureDef getFixtureDef() {
-        return fixtureDef;
-    }
-
-    public void setFixtureDef(FixtureDef fixtureDef) {
-        this.fixtureDef = fixtureDef;
-    }
-
+    //Physics getters and setters
     public Body getBody() {
         return body;
     }
 
     public void setBody(Body body) {
         this.body = body;
+    }
+    
+    public void addToWorld(World world){
+        this.setBody(world.createBody(bodyDef)); // Create the player body in the world using its body definition
+        this.body.createFixture(fixtureDef); //Attach the player fixture to the player body
+        this.body.setFixedRotation(true);
     }
 }
