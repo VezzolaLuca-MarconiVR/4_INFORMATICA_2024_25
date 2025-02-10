@@ -80,7 +80,25 @@ public class GameModel {
         // Clean up after ourselves
         groundBox.dispose();
         
-        
+        //TESTING
+        for(int i=0; i<1004; i++){
+            // Create our body definition
+            BodyDef casualDef = new BodyDef(); 
+            casualDef.type = BodyDef.BodyType.DynamicBody;
+            // Set its world position
+            casualDef.position.set(new Vector2(i%(viewport.getWorldWidth()-2) + 1, i+10));
+                // Create a body from the definition and add it to the world
+            Body casualBody = world.createBody(casualDef);
+            // Create a polygon shape
+            CircleShape casualCircle = new CircleShape();  
+            // Set the polygon shape as a box which is twice the size of our view port and 20 high
+            // (setAsBox takes half-width and half-height as arguments)
+            casualCircle.setRadius(i/10 % 0.3f);
+            // Create a fixture from our polygon shape and add it to our ground body  
+            casualBody.createFixture(casualCircle, 0.001f);
+            // Clean up after ourselves
+            casualCircle.dispose();
+        }
         
         //SOLO PER IL DEBUG
         debugRenderer = new Box2DDebugRenderer();
