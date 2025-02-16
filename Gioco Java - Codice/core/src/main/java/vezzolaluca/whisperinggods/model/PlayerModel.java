@@ -1,4 +1,4 @@
-package vezzolaluca.whisperinggods;
+package vezzolaluca.whisperinggods.model;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
@@ -26,8 +26,8 @@ public class PlayerModel {
         sprite.setBounds(x, y, width, height);
         
         //Movement initialization
-        movementVector = new Vector2(20f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
-        jumpVector = new Vector2(0f, 7f); //Use it for an upwards impulse
+        movementVector = new Vector2(15f, 0f); //The movement vector (Always right. To make it go left put a "-" before the x)
+        jumpVector = new Vector2(0f, 2f); //Use it for an upwards impulse
         
         //Body-definition initialization
         //The body descryption
@@ -36,15 +36,17 @@ public class PlayerModel {
         bodyDef.position.set(x, y); //Sets the position fo the simulation corresponding to the position of the center of the sprite
         
         //Body fixture-definition and fixture initialization
-        CircleShape rectangle = new CircleShape();
-        rectangle.setRadius(width/2);
+        CircleShape circle = new CircleShape();
+        circle.setRadius(width/2);
         
         fixtureDef = new FixtureDef();
         
-        fixtureDef.shape = rectangle;
+        fixtureDef.shape = circle;
         fixtureDef.density = 1f;
-        fixtureDef.friction = 5f;
+        fixtureDef.friction = 3f;
         fixtureDef.restitution = 0f;
+        
+        body = null;
     }
     
     

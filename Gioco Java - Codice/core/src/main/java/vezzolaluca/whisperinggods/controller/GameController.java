@@ -1,7 +1,12 @@
-package vezzolaluca.whisperinggods;
+package vezzolaluca.whisperinggods.controller;
 
+import vezzolaluca.whisperinggods.model.PlayerModel;
+import vezzolaluca.whisperinggods.model.GameModel;
+import vezzolaluca.whisperinggods.model.Constants;
+import vezzolaluca.whisperinggods.view.GameView;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import static vezzolaluca.whisperinggods.model.Constants.CAMERA_HEIGHT;
 
 public class GameController {
     private GameModel gameModel;
@@ -22,15 +27,27 @@ public class GameController {
             player.getBody().applyForceToCenter(player.getMovementVector(), true);
         } else if (Gdx.input.isKeyPressed(Input.Keys.A) && Constants.MAX_PLAYER_SPEED > -gameModel.getPlayerBody().getLinearVelocity().x){
             player.getBody().applyForceToCenter(-player.getMovementVector().x, 0, true);
+        } else if (Gdx.input.isKeyPressed(Input.Keys.S) && Constants.MAX_PLAYER_SPEED > -gameModel.getPlayerBody().getLinearVelocity().x){
+            player.getBody().applyForceToCenter(0, -10, true);
         }
+        
         //Jump
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)){
             player.getBody().applyLinearImpulse(player.getJumpVector(), player.getBody().getPosition(), true); //.getLocalCenter() returns the center of mass so it applies the impulse without any torque
         }
         
-        if (player.getBody().getPosition() != player.getPosition()){
-            player.setPosition(player.getBody().getPosition().x - player.getWidth()/2, player.getBody().getPosition().y - player.getHeight()/2);
+        player.setPosition(player.getBody().getPosition().x - player.getWidth()/2, player.getBody().getPosition().y - player.getHeight()/2);
+    
+        //Repositioning the camera according to the player
+        float cameraX = gameModel.getPlayer().getX();
+        float cameraY;
+        if(gameModel.getPlayer().getY() > CAMERA_HEIGHT/2){
+            cameraY = gameModel.getPlayer().getY() + CAMERA_HEIGHT/2;
+        }else {
+            cameraY = CAMERA_HEIGHT;
         }
+        
+        gameModel.getPCamera().position.set(cameraX, cameraY, 0);
     }
     
     //Manages the stepping of the physics simulation
@@ -45,5 +62,10 @@ public class GameController {
             gameModel.getWorld().step(Constants.TIME_STEP, Constants.VELOCITY_ITERATIONS, Constants.POSITION_ITERATIONS);
             accumulator -= Constants.TIME_STEP;
         }
+    }
+    
+    //Manages the actions of all the worl's entities
+    public void manageEntitiesActions(){
+        gameModel.worldEntityList.doEntitiesActions();
     }
 }

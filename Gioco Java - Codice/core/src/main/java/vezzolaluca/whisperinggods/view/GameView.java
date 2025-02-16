@@ -1,21 +1,23 @@
-package vezzolaluca.whisperinggods;
+package vezzolaluca.whisperinggods.view;
 
+import vezzolaluca.whisperinggods.model.PhisicalEntity;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.badlogic.gdx.utils.viewport.FitViewport;
+import vezzolaluca.whisperinggods.controller.AssetLoader;
+import vezzolaluca.whisperinggods.model.Entity;
+import vezzolaluca.whisperinggods.model.GameModel;
 
 public class GameView {
     private GameModel gameModel;
-    private FitViewport viewport;
     
-    public GameView(GameModel gameModel, FitViewport viewport) {
+    public GameView(GameModel gameModel) {
         this.gameModel = gameModel;
-        this.viewport = viewport;
     }
 
     public void draw(SpriteBatch spriteBatch) {
+        gameModel.getPCamera().update();
         /*
          * It’s a good practice to clear the screen every frame.
          * Otherwise, you’ll get weird graphical errors. You can use any color you want.
@@ -23,9 +25,10 @@ public class GameView {
         ScreenUtils.clear(Color.BLACK);
         
         //From now on the FitViewport object "viewport" will be used
-        gameModel.getViewport().apply();
+        //gameModel.getViewport().apply();
+        //gameModel.getViewport().setCamera(gameModel.getPCamera());
         //Shows how the Viewport is applied to the SpriteBatch. This is necessary for the images to be shown in the correct place.
-        spriteBatch.setProjectionMatrix(gameModel.getViewport().getCamera().combined);
+        spriteBatch.setProjectionMatrix(gameModel.getPCamera().combined);
         
         
         spriteBatch.begin();//add all of the lines for drawing in here, between spriteBatch.begin() and spriteBatch.end()
@@ -41,17 +44,24 @@ public class GameView {
          * Your game logic should really know nothing about pixels.
          */
         
-        
-        
         //Drawing the background
         //Obtain the background's texture from the asset manager and add it to the spriteBatch
-        spriteBatch.draw(AssetLoader.manager.get(AssetLoader.BACKGROUND_TEXTURE, Texture.class), 0, 0, gameModel.getViewport().getWorldWidth(), gameModel.getViewport().getWorldHeight()); // draw the background
+        spriteBatch.draw(AssetLoader.manager.get(AssetLoader.BACKGROUND_TEXTURE, Texture.class), 0, 0, gameModel.getPCamera().viewportWidth, gameModel.getPCamera().viewportHeight); // draw the background
 
+        //Drawing all of the world's entities
+        for(Entity e : gameModel.worldEntityList.getAllEntities()){
+            if(e.getClass() == PhisicalEntity.class){
+                PhisicalEntity pE = (PhisicalEntity) e;
+                pE.updatePositionAccordingToBody();
+            }
+            e.draw(spriteBatch);
+        }
+        
         //Drawing the player
         spriteBatch.draw(gameModel.getPlayer().getTexture(), gameModel.getPlayer().getX(), gameModel.getPlayer().getY(), gameModel.getPlayer().getWidth(), gameModel.getPlayer().getHeight());
         
         spriteBatch.end();//Closes the spriteBatch
         
-        gameModel.getDebugRenderer().render(gameModel.getWorld(), gameModel.getViewport().getCamera().combined);
+        gameModel.getDebugRenderer().render(gameModel.getWorld(), gameModel.getPCamera().combined);
     }
 }

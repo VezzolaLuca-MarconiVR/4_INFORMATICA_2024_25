@@ -1,11 +1,13 @@
 package vezzolaluca.whisperinggods;
 
+import vezzolaluca.whisperinggods.controller.GameController;
+import vezzolaluca.whisperinggods.model.GameModel;
+import vezzolaluca.whisperinggods.view.GameView;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.physics.box2d.Box2D;
-import com.badlogic.gdx.utils.viewport.FitViewport;
+import static vezzolaluca.whisperinggods.model.Constants.*;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class Core extends ApplicationAdapter {      
@@ -15,16 +17,6 @@ public class Core extends ApplicationAdapter {
      */
     Sound dropSound;
     Music music;
-    
-    /*
-     * It is more efficient to send all your draw calls at once to the graphics processing unit (GPU).
-     * The process of drawing an individual texture is called a draw call.
-     * The SpriteBatch is how libGDX combines these draw calls together.
-     */
-    SpriteBatch spriteBatch;
-    
-    //Viewports & Cameras: https://libgdx.com/wiki/graphics/viewports
-    FitViewport viewport;
     
     //The three major objects - the MVC pattern
     GameModel gameModel;
@@ -37,7 +29,7 @@ public class Core extends ApplicationAdapter {
         
         //Creating all three parts of the game, following the MVC pattern
         gameModel = new GameModel();
-        gameView = new GameView(gameModel, viewport);
+        gameView = new GameView(gameModel);
         gameController = new GameController(gameModel, gameView);
     }
 
@@ -47,12 +39,12 @@ public class Core extends ApplicationAdapter {
         gameController.manageInput();
         gameView.draw(gameModel.getSpriteBatch());
         gameController.managePhysics();
-        
+        gameController.manageEntitiesActions();
     }
     
     @Override
     public void resize (int width, int height) {
-        gameModel.getViewport().update(width, height, true); // true centers the camera
+        //gameModel.getViewport().update(width, height, true); // true centers the camera
     }
 
     @Override
