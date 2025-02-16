@@ -57,14 +57,14 @@ public class GameModel {
         //Environment initialization
         //environment.addToWorld();
         
-        //PLAYER INITIALIZATION
+        //Player initialization
         Texture playerTexture = AssetLoader.manager.get(AssetLoader.BUCKET_TEXTURE, Texture.class);
         //Initialize the player's texture and position (the player's sprite)
         player = new PlayerModel(playerTexture, 5f, 4f, 1f, 1f);
         player.addToWorld(world);
         
         
-        // GROUND INITIALIZATION
+        // GROUND
         BodyDef groundBodyDef = new BodyDef();  
         // Set its world position
         //groundBodyDef.position.set(viewport.getWorldWidth(), 0);  // Posizionarlo al centro orizzontale e altezza 0.1f
@@ -83,7 +83,7 @@ public class GameModel {
         groundBox.dispose();
         
 
-        // LEFT WALL INITIALIZATION
+        // LEFT WALL
         groundBodyDef.position.set(0, 0);
         PolygonShape leftWallBox = new PolygonShape();
         leftWallBox.setAsBox(0f, playerCamera.viewportHeight);
@@ -93,7 +93,7 @@ public class GameModel {
         leftWallBox.dispose();
         
         
-        //RIGHT WALL INITIALIZATION
+        //RIGHT WALL
         groundBodyDef.position.set(playerCamera.viewportWidth, 0);
         PolygonShape rightWallBox = new PolygonShape();
         rightWallBox.setAsBox(0f, playerCamera.viewportHeight);
